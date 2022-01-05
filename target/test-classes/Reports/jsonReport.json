@@ -1,0 +1,193 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2012000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user should go to Target ecommerce homepage",
+            "match": {
+              "location": "SignInSteps.user_should_go_to_Target_ecommerce_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3663080500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should click signIn button and click on signIn link",
+            "match": {
+              "location": "SignInSteps.user_should_click_signIn_button_and_click_on_signIn_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-05T08:24:17.987Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9838397700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To validate signin functionality with invalid credentials",
+        "description": "",
+        "id": "to-validate-signin-functionality-in-target-ecommerce-website;to-validate-signin-functionality-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 329700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1065461700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should enter invalid  email and password",
+            "match": {
+              "location": "SignInSteps.user_should_enter_invalid_email_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 333112500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should click signIn button and get error message",
+            "match": {
+              "location": "SignInSteps.user_should_click_signIn_button_and_get_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 808700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user should go to Target ecommerce homepage",
+            "match": {
+              "location": "SignInSteps.user_should_go_to_Target_ecommerce_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4261248700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should click signIn button and click on signIn link",
+            "match": {
+              "location": "SignInSteps.user_should_click_signIn_button_and_click_on_signIn_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-05T08:24:33.006Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8666464300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "To validate signin functionality with valid credentials",
+        "description": "",
+        "id": "to-validate-signin-functionality-in-target-ecommerce-website;to-validate-signin-functionality-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 67300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 961203000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should enter valid email and password",
+            "match": {
+              "location": "SignInSteps.user_should_enter_valid_email_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 298566800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should click signIn button and login successful",
+            "match": {
+              "location": "SignInSteps.user_should_click_signIn_button_and_login_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate signin functionality in Target ecommerce Website",
+    "description": "",
+    "id": "to-validate-signin-functionality-in-target-ecommerce-website",
+    "keyword": "Feature",
+    "uri": "file:/F:/Java%20Files/Workspace/TargetInCucumber/src/test/resources/Features/signin.feature",
+    "tags": []
+  }
+]

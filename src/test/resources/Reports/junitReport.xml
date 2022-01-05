@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="29.209613">
+    <testcase classname="To validate signin functionality in Target ecommerce Website" name="To validate signin functionality with invalid credentials" time="15.015432">
+        <system-out><![CDATA[Given user should go to Target ecommerce homepage...........................passed
+When user should click signIn button and click on signIn link...............passed
+And user should enter invalid  email and password...........................passed
+Then user should click signIn button and get error message..................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate signin functionality in Target ecommerce Website" name="To validate signin functionality with valid credentials" time="14.194181">
+        <system-out><![CDATA[Given user should go to Target ecommerce homepage...........................passed
+When user should click signIn button and click on signIn link...............passed
+And user should enter valid email and password..............................passed
+Then user should click signIn button and login successful...................passed
+]]></system-out>
+    </testcase>
+</testsuite>

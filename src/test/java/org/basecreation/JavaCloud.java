@@ -1,0 +1,33 @@
+package org.basecreation;
+
+//Sample test in Java to run Automate session.
+import org.openqa.selenium.By;
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.JavascriptExecutor;
+import java.net.URL;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class JavaCloud {
+	public static final String AUTOMATE_USERNAME = "raguvaranry_1rtvGO";
+	public static final String AUTOMATE_ACCESS_KEY = "6y6Q22zitkyT5y2zgxhT";
+	public static final String URL = "https://" + AUTOMATE_USERNAME + ":" + AUTOMATE_ACCESS_KEY
+			+ "@hub-cloud.browserstack.com/wd/hub";
+
+	public static void main(String[] args) throws Exception {
+		DesiredCapabilities caps = new DesiredCapabilities();
+		caps.setCapability("browserName", "iPhone");
+		caps.setCapability("device", "iPhone 11");
+		caps.setCapability("realMobile", "true");
+		caps.setCapability("os_version", "14.0");
+		caps.setCapability("name", "BStack-[Java] Sample Test"); // test name
+		caps.setCapability("build", "BStack Build Number 1"); // CI/CD job or build name
+		WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
+		driver.get("https://www.google.com");
+
+	}
+}
